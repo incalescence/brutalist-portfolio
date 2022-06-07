@@ -28,6 +28,7 @@ html {
 
 body {
   margin: 0;
+  max-height: fit-content;
 }
 
 .App {
@@ -77,7 +78,7 @@ hr {
 
 .Main {
   display: flex;
-  height: 88vh;
+  height: 100vmax;
   margin-top: 0;
   padding-top: 0;
 }
@@ -131,21 +132,21 @@ a {
 }
 
 .projects {
-  width: 100%;
-  padding-top: 4vmax;
   display: flex;
   justify-self: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .project {
-  mix-blend-mode: screen;
   font-family: Inter;
-  font-size: larger;
-  font-weight: 800;
-  background-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 1px;
+  font-size: 100%;
+  font-weight: 888;
+  border-right: solid rgba(255, 255, 255, 0.8) 1px;
+  border-left: solid rgba(255, 255, 255, 0.8) 1px;
   width: 20%;
-  margin: 0.5em;
+  margin: 0.2em;
   padding: 2em;
   text-align: center;
 }
@@ -173,11 +174,12 @@ a {
 }
 
 .canvas {
-  background-color: white;
+  border: solid rgba(255, 255, 255, 0.8) 1px;
+  margin: 20px;
 }
 
 .drawprompt {
   color: blue;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 10px;
 }

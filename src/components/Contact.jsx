@@ -5,21 +5,19 @@ import { randomhex } from "../App.jsx";
 const Contact = ({ randomhex }) => {
   return (
     <div>
+      <p className="drawprompt">
+        They say a picture speaks a thousand words right? Why don't you share
+        your thoughts with me. I'll keep it a secret shhhh..
+      </p>
       <ReactPainter
-        width={500}
         height={300}
-        initialColor={randomhex}
-        initialLineWidth="8"
+        width={800}
+        initialColor="white"
+        initialLineWidth="2"
         onSave={(image) => console.log(image)}
         render={({ triggerSave, canvas }) => (
           <div>
-            <div className="canvas">
-              <p className="drawprompt">
-                They say a picture speaks a thousand words right? Why don't you
-                share your thoughts with me. I'll keep it a secret shhhh..
-              </p>
-              {canvas}
-            </div>
+            <div className="canvas">{canvas}</div>
             <button onClick={triggerSave}>Send</button>
           </div>
         )}

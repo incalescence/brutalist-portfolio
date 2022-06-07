@@ -6,8 +6,6 @@ const Projects = () => {
     <div className="projects">
       <Project />
       <Project />
-      <Project />
-      <Project />
     </div>
   );
 };

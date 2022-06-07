@@ -4,7 +4,7 @@ const LargeText = () => {
   const str = "{ ";
   const str2 = " }";
   return (
-    <div className="largetext">
+    <div id="landing" className="largetext">
       <div>Computer Science </div>
       <div>@ UNSW </div>
       <div>Currently coding up </div>

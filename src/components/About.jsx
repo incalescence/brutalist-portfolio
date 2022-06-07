@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div>
       <Typing />
-      <span>
+      {/* <span>
         <p>fact1</p>
         <p>fact2</p>
         <p>fact3</p>
         <p>fact4</p>
-      </span>
+      </span> */}
     </div>
   );
 };
