@@ -14,11 +14,13 @@ const Typing = () => {
           800,
           "spark joy ",
           800,
-          "through ",
+          "and create ",
           800,
           "immersive ",
           800,
           "experiences ",
+          800,
+          "through code ",
           1000,
         ]}
       />

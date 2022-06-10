@@ -6,8 +6,8 @@ const Contact = ({ randomhex }) => {
   return (
     <div>
       <p className="drawprompt">
-        They say a picture speaks a thousand words right? Why don't you share
-        your thoughts with me. I'll keep it a secret shhhh..
+        They say a picture speaks a thousand words right? Why don't you leave me
+        a visual message!
       </p>
       <ReactPainter
         height={300}
@@ -22,11 +22,11 @@ const Contact = ({ randomhex }) => {
           </div>
         )}
       />
-
+      {/* 
       <form>
         <input className="textinput" type="text"></input>
         <input type="checkbox"></input>
-      </form>
+      </form> */}
     </div>
   );
 };

@@ -179,7 +179,24 @@ a {
 }
 
 .drawprompt {
-  color: blue;
+  color: rgba(255, 255, 255, 0.8);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.projectimage {
+  width: 100%;
 }
